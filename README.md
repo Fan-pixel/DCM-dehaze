@@ -30,7 +30,7 @@ python train.py --model （Model class） --checkpoints （Training sample addre
 
 For example, we train the DCM-Dehaze on the [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard)：
 ```
-python test.py --model 1 --checkpoints ./checkpoints/test_example
+python train.py --model 1 --checkpoints ./checkpoints/train_example
 ```
 You can download the pretrained models on [Training weight](https://pan.baidu.com/s/1dghKt-Dasr5XM_0VOF4miQ)(bzyx).
 
