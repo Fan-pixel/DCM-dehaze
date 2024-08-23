@@ -14,7 +14,8 @@ We used [SOTS-indoor](https://sites.google.com/view/reside-dehaze-datasets/resid
 
 For training, we used [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard) dataset, you can follow the operations above to generate the training file lists.
 
-#### Train
+Train
+===========================
 You can modify the training settings for each experiment in the 'configs.yml'. Then run the following script to train the model：
 ```
 python train.py --model （Model class） --checkpoints （Training sample address）
@@ -26,7 +27,8 @@ python test.py --model 1 --checkpoints ./checkpoints/test_example
 ```
 You can download the pretrained models on [Training weight](https://pan.baidu.com/s/1dghKt-Dasr5XM_0VOF4miQ)
 
-#### Test
+Test
+===========================
 Run the following script to test the trained model：
 ```
 python test.py --model （Model class） --checkpoints （Test sample address）
