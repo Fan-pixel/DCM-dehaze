@@ -28,7 +28,7 @@ You can modify the training settings for each experiment in the 'configs.yml'. T
 python train.py --model （Model class） --checkpoints （Training sample address）
 ```
 
-For example, we train the DCM-Dehaze on the [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard)：
+For example, we train the DCM-dehaze on the [ITS](https://sites.google.com/view/reside-dehaze-datasets/reside-standard)：
 ```
 python train.py --model 1 --checkpoints ./checkpoints/train_example
 ```
@@ -40,7 +40,7 @@ Run the following script to test the trained model：
 ```
 python test.py --model （Model class） --checkpoints （Test sample address）
 ```
-For example, we test the DCM-Dehaze on the SOTS-indoor set:
+For example, we test the DCM-dehaze on the SOTS-indoor set:
 ```
 python test.py --model 1 --checkpoints ./checkpoints/test_example
 ```
