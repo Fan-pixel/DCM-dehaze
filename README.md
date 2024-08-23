@@ -8,6 +8,14 @@ Although synthetic data can alleviate acquisition challenges in image dehazing t
 
 ![图片1](fig_3.pdf)
 
+Preparation
+===========================
+Python 3.7 + Pytorch, please refer 'environment.yml' for detiled requirments.
+You can create a new conda environment:
+```
+conda env create -f environment.yml
+```
+
 Datasets
 ===========================
 We used [SOTS-indoor](https://sites.google.com/view/reside-dehaze-datasets/reside-v0), [SOTS-outdoor](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)  and [I-HAZE](https://data.vision.ee.ethz.ch/cvl/ntire18//i-haze/) for testing.  
@@ -25,7 +33,7 @@ For example, we train the DCM-Dehaze on the [ITS](https://sites.google.com/view/
 ```
 python test.py --model 1 --checkpoints ./checkpoints/test_example
 ```
-You can download the pretrained models on [Training weight](https://pan.baidu.com/s/1dghKt-Dasr5XM_0VOF4miQ)
+You can download the pretrained models on [Training weight](https://pan.baidu.com/s/1dghKt-Dasr5XM_0VOF4miQ)(bzyx).
 
 Test
 ===========================
