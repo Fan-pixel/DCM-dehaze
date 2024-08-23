@@ -8,6 +8,7 @@ Although synthetic data can alleviate acquisition challenges in image dehazing t
 
 Preparation
 ===========================
+## Install
 Python 3.7 + Pytorch, please refer 'environment.yml' for detiled requirments.
 You can create a new conda environment:
 ```
